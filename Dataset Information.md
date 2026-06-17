@@ -52,3 +52,32 @@ Key Fields
 - Won
 - Party Short Name (Calculated Column)
 - Party Alliance (Calculated Column)
+
+---
+
+#### statewise_results.csv
+Purpose: Provides election results aggregated at state level.
+
+Key Use Cases
+- State-wise political analysis
+- Alliance dominance evaluation
+- Regional performance comparison
+
+
+Key Fields
+- State ID
+- Constituency
+- Parliament Constituency
+
+---
+#### states.csv
+Purpose: Dimension table containing state and union territory information.
+
+Key Use Cases
+- Geographic reporting
+- State-level aggregation
+- Map visualizations
+
+Key Fields
+- State ID
+- State Name
