@@ -84,6 +84,8 @@ Key Fields
 
 ### Data Model
 
+![Problem Statement](Snapshots/Election_Analysis_Data_Model.png)
+
 The model follows a star schema like structure and is built around constituencywise_results as a central fact table which connects to partywise_results, statewise_results, and constituencywise_details to suppourt analysis from national level seat distribution down to individual candidate performance.
 
 #### Relationship overview
