@@ -88,3 +88,24 @@ The model follows a star schema like structure and is built around constituencyw
 
 #### Relationship overview
 
+States -> Statewise_results
+- Connected through State ID 
+- One state can have multiple constituencies.
+- Used for state-level analysis and map visualization.
+
+Statewise_results -> Constituencywise_results
+- Connected through 'Party ID'.
+- One party can win in multiple constituencies.
+- Used for alliance and party-wise analysis.
+
+Constituencywise_results -> Constituencywise_details
+- Connected through 'Constituency ID'.
+- One contituency can contain multiple candidates.
+- Enables candidate-level vote analysis, vote share calculation and runner-up comparisons.
+
+With this data model you can find out the following:
+- National Level (Party and Alliance performance)
+- State Level (Political dominance)
+- Constituency Level (Election Outcomes)
+- Candidate Level (Vote Share & Margins)
+
