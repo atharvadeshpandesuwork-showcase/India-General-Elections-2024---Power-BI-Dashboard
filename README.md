@@ -35,6 +35,8 @@ Provides high level summary of elelction results accross India.
 - Alliance-wise comparison of election performance.
 - Detailed drill-through tables for all winning constituencies.
 
+---
+
 ### State Demographic Analysis
 Provides a geographical view of election outcomes across states.
 
@@ -50,6 +52,8 @@ Provides a geographical view of election outcomes across states.
 - Majority alliance identification by state.
 - Drill-through state-level details.
 
+---
+
 ### Political Landscape by state
 Analyzes political performance within a selected state.
 
@@ -64,6 +68,8 @@ Analyzes political performance within a selected state.
 - Alliance dominance comparison.
 - Interactive state map exploration.
 
+---
+
 ### Constituency Analysis
 Provides setailed insights for individual contituencies.
 
@@ -73,3 +79,68 @@ Provides setailed insights for individual contituencies.
 - Postal Votes.
 - Number of candidates.
 
+#### Candidate Analysis
+- Winning Candidate
+- Runner Up Candidate
+- Second Runner Up - Candidate 
+- Vote Share Percentage
+- Winning Margin
+
+---
+
+### Election Details Grid
+
+A detailed tabular view of constituency-level election details.
+
+#### Information Included
+- Contituency Name
+- Winning Candidate
+- Runner-Up-Candidate
+- Winning Party
+- Alliance classification
+- EVM Votes
+- Postal Votes
+- Total Votes
+- Victory Margin
+
+#### Features
+- Drill-through functionality.
+- Data Export to excel.
+- Bookmark driven "Show all data" option.
+
+---
+
+### Landing Page
+
+Acts as a central navigation hub for the dashboard.
+
+#### Features
+- Dashboard Navigation Buttons.
+- Interactive user interface.
+- Home button on every page.
+- Responsive design.
+- Consistent navigation experience.
+
+---
+
+### Expected Outcomes
+
+This dashboard helps users:
+
+- Understand national election trends. 
+- Compare alliance performance.
+- Indentify politically dominant states.
+- Analyze constituency - level voting patterns.
+- Explore election results interactively.
+- Generate meaningful political insights through data visualization.
+
+---
+
+### Tools Used
+- Power BI
+- DAX
+- Power Query
+- Data Modelling
+- Azure Maps
+- Booksmarks and drill through features
+- SQL (Exploratory Data Analysis)
