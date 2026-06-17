@@ -81,3 +81,10 @@ Key Use Cases
 Key Fields
 - State ID
 - State Name
+
+### Data Model
+
+The model follows a star schema like structure and is built around constituencywise_results as a central fact table which connects to partywise_results, statewise_results, and constituencywise_details to suppourt analysis from national level seat distribution down to individual candidate performance.
+
+#### Relationship overview
+
